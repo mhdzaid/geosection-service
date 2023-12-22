@@ -1,0 +1,3 @@
+2023-12-10 19:48:35.654638+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GEOLOGICAL_CLASS" not found (this database is empty); SQL statement:
+select gc1_0.id,gc1_0.code,gc1_0.name from geological_class gc1_0 where gc1_0.name=? [42104-224]
